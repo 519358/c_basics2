@@ -20,7 +20,7 @@ int main(void){
         printf("%d",arr[j]);
         putchar(' ');
     }
-    puts("");
+    puts(" ");
 
     return 0;
 }
