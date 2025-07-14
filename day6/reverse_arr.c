@@ -6,8 +6,21 @@ int main(void){
     size_t len=sizeof(arr)/sizeof(arr[0]);
 
     int* left=arr;
-    int* right=&arr[len];
-    for (int i=0;i<len;i++){
-        
+    int* right=&arr[len-1];
+    for (size_t i=0;i<len/2;i++){
+        int tmp=*left;
+        *left= *right;
+        *right=tmp;
+
+        left++;
+        right--;
     }
+
+    for (size_t j=0;j<len;j++){
+        printf("%d",arr[j]);
+        putchar(' ');
+    }
+    puts("");
+
+    return 0;
 }
