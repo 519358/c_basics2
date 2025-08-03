@@ -1,4 +1,5 @@
 #include "mathlib.h"
+#include <stdio.h>
 
 double average(void){
 
