@@ -23,4 +23,5 @@ test: all $(TESTS)
 	$(CC) $(CFLAGS) $(TESTS) $(TARGET) $(LIBS) -o build/test_runner
 	./build/test_runner
 
-
+clean:
+	rm -rf build *.gcda *.gcno *.gcov
