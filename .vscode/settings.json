@@ -1,5 +1,10 @@
 {
     "files.associations": {
-        "mathlib.h": "c"
+        "mathlib.h": "c",
+        "array": "c",
+        "string_view": "c",
+        "initializer_list": "c",
+        "string.h": "c",
+        "cstdlib": "c"
     }
 }
